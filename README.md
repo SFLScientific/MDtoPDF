@@ -1,6 +1,6 @@
 #  MD to PDF conversion
 
-![ ](imgs/logo.png){ style="width:50%" }
+![ ](imgs/logo.pn#center)
 
 ![](https://raster.shields.io/badge/python-v3.6+-blue.png)
 ![](https://api.travis-ci.org/anfederico/Clairvoyant.png?branch=master)
