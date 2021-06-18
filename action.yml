@@ -1,0 +1,6 @@
+# action.yml
+name: 'MD to PDF conversion'
+description: "Converts all readme*.md (case-insensitive) files"
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
