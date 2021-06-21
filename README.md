@@ -29,6 +29,6 @@ docker run --rm -v ${PWD}:/data pandoc-with-rsvg
 
 # Troubleshooting
 
-Issue: Figures not appearing:
+Issue of figures not appearing in PDF file:
 - Do not use .svg format for image files
 - Pandoc has multiple restrictions on html formatting. Use their native format instead (see [here](https://pandoc.org/MANUAL.html#images) for more information.) 
