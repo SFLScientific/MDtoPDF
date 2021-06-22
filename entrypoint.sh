@@ -6,7 +6,7 @@ shopt -s globstar
 for i in **/*.md; do # Whitespace-safe and recursive
     # if readme is in the filename, then do processing
     # to add different file names, use "readme|file_name" in the grep
-    echo "$i" | grep -i "readme" > /dev/null
+    echo "$i" | grep -i "readme" | grep -v -i ".pdf.orig" > /dev/null
     retval="$?"
     if [ $retval -eq 0 ]
     then
