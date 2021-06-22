@@ -15,7 +15,7 @@ for i in **/*.md; do # Whitespace-safe and recursive
         # same path to .md file, but replace .md with .pdf for output name
         pdf_name_path=$(echo "$i" | sed "s/.md/.pdf/")
         # call pandoc
-        pandoc "$i" -o "$pdf_name_path"
+        pandoc --pdf-engine=xelatex "$i" -o "$pdf_name_path"
 
     fi
     
